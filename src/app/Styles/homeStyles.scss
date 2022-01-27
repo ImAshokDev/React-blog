@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: azure;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  list-style-type: none;
+}
+
+.app-page {
+  width: 1200px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+
+  li {
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+}
